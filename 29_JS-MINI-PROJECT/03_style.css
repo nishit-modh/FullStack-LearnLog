@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: solid black 5px;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.green {
+    background-color: rgba(0, 128, 0, 0.7);
+}
+
+.yellow {
+    background-color: rgba(255, 255, 0, 0.7);
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.flash {
+    background-color: white;
+}
+
+.gameFlash {
+    background-color: rgba(95, 95, 95, 0.85);
+}

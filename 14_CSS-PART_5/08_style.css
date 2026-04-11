@@ -1,0 +1,76 @@
+.flex {
+    display: flex;
+    height: 400px;
+    width: 80%;
+    background-color: powderblue;
+    border: solid 2px black;
+    top: 100px;
+    left: 250px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+ 
+.flex div {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.flex .last {
+    color: black;
+}
+
+/* flex-basis
+It sets the initial main size of a flex item.
+    flex-basis : 1OOpx; 
+*/
+#red {
+    flex-basis: 850px;
+}
+
+#green {
+    flex-basis: 200px;
+}
+
+/* It specifies how much of the flex container's remaining space should be assigned to the flex item's main size.
+    flex-grow : 1;
+*/
+#blue {
+    flex-grow : 1;
+}
+
+#indigo {
+    flex-grow: 2;
+    max-width: 400px;
+    /* will get maximun 400px width no matter what -- grow will take affect till specified value only */
+}
+
+/* It sets the flex shrink factor of a flex item.
+    flex-shrink : 1;
+*/
+
+#orange  {
+    flex-shrink: 0.9;
+}
+
+#yellow {
+    flex-shrink: 2;
+    min-width: 300px;
+    /* will get minimum 300px -- shrink will take affect till specified value only */
+}
+
+/* Flex Shorthand
+    flex-grow | flex-shrink | flex-basis
+        flex : 2 2 100px;
+    flex-grow | flex-basis
+        flex : 2 1OOpx;
+    flex-grow (unitless)
+        flex : 2,
+    flex-basis
+        flex : 100px;
+*/
+#violet {
+    flex: 2 2 200px;
+}

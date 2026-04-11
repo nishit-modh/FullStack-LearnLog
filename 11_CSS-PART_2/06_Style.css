@@ -1,0 +1,12 @@
+div {
+    background-color: lightcyan;
+}
+form {
+    background-color: lightseagreen;
+}
+button{
+    background-color: inherit;
+}
+/* buttons & input boxes do not inherit properties from parent by default */
+
+/* some properties do not get inherited by default */

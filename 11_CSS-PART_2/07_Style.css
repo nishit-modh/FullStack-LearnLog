@@ -1,0 +1,40 @@
+h1:nth-of-type(odd) {
+    color: blue;
+}
+h1:nth-of-type(even)::selection {
+    background-color: red;
+}
+* {
+    text-align: center;
+}
+h1, h3, h5 {
+    font-family: georgia;
+}
+.para {
+    color: black;
+    background-color: wheat;
+}
+div>button {
+    color: white;
+    background-color: purple;
+}
+button:hover {
+    color: blue;
+    background-color: yellow;
+}
+p:nth-of-type(2n-1) {
+    color: red;
+}
+h1::first-letter {
+    color: red;
+}
+#yes:checked + label {
+    color: darkgreen;
+    font-weight: bolder;
+     /*other way
+        input[type="checkbox"]:checked + label {
+        color: darkgreen;
+        font-weight: bolder;
+    } */
+}
+   

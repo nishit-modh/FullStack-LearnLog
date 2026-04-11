@@ -1,0 +1,43 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    line-height: 100%;
+    background-color: grey;
+    border: solid 2px black;
+}
+
+@media (width: 500px) {
+    .nav{
+        background-color: blue;
+    }
+    .hidden {
+        height: 100px;
+        width : 100px;
+        background-color: grey;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav {
+        background-color: green;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav {
+        background-color: red;
+    }
+}
+
+/* media  queries can be merged using and*/
+@media (min-width: 500px) and (max-width: 900px) {
+    .nav {
+        background-color: yellow;
+    }
+}
+
+/* @media (orientation: landscape) {
+    .nav {
+        background-color: aqua;
+    }
+} */

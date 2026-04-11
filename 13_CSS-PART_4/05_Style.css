@@ -1,0 +1,17 @@
+div {
+    height: 400px;
+    width: 700px;
+    color: orange;
+    background-color: lightblue;
+    margin: 50px auto;
+    background-image: url("Ace_Fire.jpg");
+    background-size: cover;   
+}
+/* background-image:url(05_background.jpeg); */
+/* background-size: contain / cover / auto; */
+
+/* cover is reccomended */
+
+/* contain repeats image to fill space
+cover crops the image to fill space 
+auto streaches image to fill space */

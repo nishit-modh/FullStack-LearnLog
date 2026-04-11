@@ -1,0 +1,41 @@
+#main {
+    display: flex;
+    height: 30rem;
+    width: 30rem;
+    border: solid 5px turquoise;
+    border-radius: 8%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sub {
+    height: 8rem;
+    width: 8rem;
+    background-color: grey;
+    text-align: center;
+    border: solid 4px black;
+    border-radius: 8%;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+#nav {
+    height: 50px;
+    width: 900px;
+    margin-top: 50px;
+    background-color: pink;
+    border: solid 2px turquoise;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.option {
+    height: 50px;
+    width: 80px;
+    text-align: start;
+    font-size: 24px;
+    line-height: 50px; 
+    /* line-height affects the content allignment (here center) with the cross axis */
+}

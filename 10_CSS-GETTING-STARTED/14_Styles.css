@@ -1,0 +1,17 @@
+h1{
+    letter-spacing: 15px;
+    font-size: large;
+}
+p{
+    line-height: 2.1; 
+    letter-spacing: normal;
+    font-size: 10px;
+}
+h2{
+    letter-spacing: 15px;
+    font-size: xx-large;
+}
+h5{
+    line-height: 3; 
+    letter-spacing: -0.5px;
+}

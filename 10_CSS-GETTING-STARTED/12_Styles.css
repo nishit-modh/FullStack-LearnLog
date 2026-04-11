@@ -1,0 +1,27 @@
+/* 
+using double --> double line
+using wavy --> wavy line
+using doted --> doted line
+
+can be created in any colored or normal type of line
+*/
+h1{
+    font-weight: 900;
+    text-decoration: red dotted underline;
+}
+p{
+    font-weight: normal;
+    text-decoration: double line-through;
+}
+h5{
+    font-weight: 100;
+    text-decoration: overline;
+}
+h2{
+    font-weight: 600;
+    text-decoration: purple wavy underline;
+}
+/* can be used to remove underline of "Anchor tag" */
+a{
+    text-decoration: none;
+}

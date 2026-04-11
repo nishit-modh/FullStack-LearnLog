@@ -1,0 +1,55 @@
+/* Transform property lets rotate , scale, skew or translate an element */
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: skyblue;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n) {
+    background-color: yellowgreen;
+}
+div:nth-of-type(3n) {
+    background-color: orange;
+}
+
+
+/* rotate is usd to rotate element in a certain degree */
+#d1 {
+    margin-top: 150px;
+    transform:rotate(45deg);
+}
+
+
+/* scale is used to cahnge scale of an element */
+#d2 {
+    transform: scale(0.5);
+}
+/* scale can be used to cahnge a specifc axis (side) */
+#dd2 {
+    /* transform: scale(1.5, 0.5); */
+    transform: scaleX(2);
+}
+
+
+/* translate is used to move element on axis */
+#d3 {
+    transform: translate(300px , 300px);
+}
+/* translate can be used to cahnge a specifc axis (side) */
+#dd3 {
+    transform: translateX(-600px);
+}
+
+
+/* skew is used to change shape of element to skewed(stretchwd) element */
+#d4 {
+    /* transform: skew(30deg); */
+    transform: skewX(30deg);
+}
+
+/* all this types properties can be used together */
+#d5 {
+    transform: rotate(180deg) translateX(150px) skewX(30deg) scaleX(2.5);
+}

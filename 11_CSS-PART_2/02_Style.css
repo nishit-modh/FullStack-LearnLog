@@ -1,0 +1,14 @@
+/* ele1 + ele2
+is done to select ele2 which comes right after ele1 */
+/* THis is Called Sibling Combinator */
+p + h3{
+    color: chartreuse;
+    text-decoration: red underline;
+}
+
+/* ele1 > ele2
+is used to select direct descedent as a selected tag if ele2 is direct descedent of ele1 */
+/* This is called child Combinator */
+div > input{
+    background-color:lightgoldenrodyellow;
+}

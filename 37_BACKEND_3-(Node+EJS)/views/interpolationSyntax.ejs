@@ -1,0 +1,24 @@
+<!-- Interpolation refers to embedding expressions into marked up text.
+ can embed js in html making html dynamic using => EJS Tags
+ EJS(embeded javascript) embeds JS in html file using tags -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>This is a Home page</h1>
+    <h3><%= 3+5 %></h3>
+    <h4><%= "niShiT moDh".toUpperCase() %></h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat
+      ullam sit eaque dignissimos, minus iusto nam quisquam veniam expedita
+      error commodi optio. Alias quia dolorem cumque maiores inventore adipisci,
+      in officiis quas!
+    </p>
+    <h4>DIce gave value : <%= Math.floor(Math.random() * 6) + 1 %> </h4>
+    <button>Click Me</button>
+  </body>
+</html>

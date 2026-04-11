@@ -1,0 +1,22 @@
+/* Ans 1 */
+#q1div1 {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+/* Ans 2 */
+.que2 { 
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* Ans 3 */
+li {
+    display: inline;
+}
+/* bullet point will disapper because it is releted with list display mode & we change it to inline */

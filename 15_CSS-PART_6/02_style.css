@@ -1,0 +1,57 @@
+/* NOTE:
+    GRID & FLEX both are by default block elenments -> to convert inline use
+    display: inline-grid;
+    display: inline-flex;   
+*/
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: powderblue;
+    display: inline-grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 8px;
+    column-gap: 15px;
+    justify-items: end;
+    align-items: end;
+    /* place-items: end; */
+}
+
+/* common Properties
+    [justify = changes horizontal position]
+    justify-items (container) -> applies to all items in container
+    justify-self (item) -> applies in a perticular item or items
+
+    [align = changes vertical position]
+    align-items (container)
+    align-self (item)
+
+    [place = changes horizontal & vertical at once]
+    place-items (container)
+    place-self (item)
+
+    NOTE: AS ALWAYS --> 
+    justify-self >> justify-items
+    align-self >> align items
+    place-self >> place-items
+*/
+
+.item {
+    height: 80px;
+    width: 100px;
+    background-color: yellow;
+    border: dashed 3px black;
+    justify-self: center;
+    align-self: center;
+}
+
+.one {
+    grid-row: 1/ span 2;
+    grid-column: 1/span 3;
+    place-self: center;
+}
+
+.four {
+    justify-self: end;
+    align-self: start;
+}

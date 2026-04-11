@@ -1,0 +1,54 @@
+/* hover pesudo class */
+button:hover {
+    color: beige;
+    background-color: black;
+}
+h3:hover {
+    text-decoration: line-through;
+}
+
+/* active pesudo calss */
+a:active {
+    color: green;
+    font-weight: 900; /*bolder*/
+}
+button:active {
+    background-color: red;
+}
+h3:active {
+    text-align: center;
+    font-weight: 100;
+    background-color: bisque;
+}
+
+/* checked pesudo calss */
+input[type="radio"]:checked + label {
+    color: green;
+    font-weight: bolder;
+}
+
+    /* nth-of-type pesudo class */
+div:nth-of-type(even) {
+    background-color:lightcoral;
+}
+
+/* PSEUDO ELEMENTS */
+
+/* first letter pesudo element */
+h1::first-letter {
+    color: #b72831;
+}
+
+/* first line pesudo element */
+#lines::first-line {
+    color:brown;
+}
+
+/* selecction pesudo code */
+p::selection{
+    background-color: rgb(203, 239, 148);
+}
+p>a::selection {
+    background-color:pink;
+}
+/* it affects the area that userr selects on website */

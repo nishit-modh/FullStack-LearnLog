@@ -1,0 +1,12 @@
+div {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: lightcoral;
+    margin: 30px auto;
+
+    /* box shadow is used to give shadow to an element */
+    box-shadow: 10px 2px 6px black;
+    /* format of box sahdow
+    --> X-ofset | Y-ofset | blur radious | color */
+}

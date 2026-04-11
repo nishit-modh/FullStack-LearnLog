@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Firts package for trial",
+  "main": "01_node_demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nishit-modh",
+  "license": "ISC",
+  "type" : "module"
+}

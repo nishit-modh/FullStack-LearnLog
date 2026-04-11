@@ -1,0 +1,13 @@
+div {
+    background-color: seagreen;
+    height: 300px;
+    width: 600px;
+}
+
+ul {
+    background-color: lightblue;
+}
+
+li {
+    background-color: blueviolet;
+}

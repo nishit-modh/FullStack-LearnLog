@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+</head>
+
+ <!-- Label is used as caption of a input which is connected to the input -->
+
+<body>
+     <form action="/action">
+    <!-- Simple way of using label -->
+        <label>
+            Username : 
+            <input type="text" placeholder="Enter text">
+            <br>
+        </label>
+        <label>
+            Password : 
+            <input type="password" placeholder="Enter password">
+            <br>
+        </label>
+
+    <!-- Efficient way of using label with id -->
+        <label for="name">Name : </label>
+        <input type="Text" placeholder="Enter name" id="name">
+        <br>
+        <label for="pin">Pass pin : </label>
+        <input type="Password" placeholder="enter pin" id="pin">
+        <br>
+        <label for="Dob">DOB : </label>
+        <input type="date" id="Dob">
+     </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* It is a one-dimensional layout method for arranging items in rows or columns. */
+/* NOTE: it contains all its child elements in it */
+
+.flex {
+    display: flex;  
+    /* by default flex applies row in the direction property */
+    height: 300px;
+    width: 1000px;
+    background-color: powderblue;
+    border: solid 2px black;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+ 
+.flex div {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}

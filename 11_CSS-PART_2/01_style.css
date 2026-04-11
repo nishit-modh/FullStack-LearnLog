@@ -1,0 +1,61 @@
+/* "," is used to select multiple tags */
+h1,h3 {
+    color: #b72831;
+}
+
+/* "#" is used to select id */
+#login{
+    background-color: lightskyblue;
+    color: white;
+}
+#signup{
+    background-color: #b72831;
+    color: white;
+}
+
+/* "." is used to select class */
+.upvote{
+    background-color: darkgreen;
+    color: white;
+}
+
+/* by using followig syntex we can select specific element */
+div[id="myid"] p{
+    color: green;
+}
+div[id="myid"] button{
+    color: #b72831;
+    background-color: wheat;
+}
+span[id="myid"] button{
+    background-color: #b72831;
+    color: white;
+}
+
+/* descendant selector is used for multiple level for selecting a specific tag form parent tag */
+.para a{
+    color: bisque;
+    background-color: blueviolet;
+}
+/* descedent selecotr can be used in multiple levels */
+nav ul li{
+    color: aqua;
+}
+
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+
+}
+
+/* attribute selector can be used by attribute or attribute value */
+input[type="text"]{
+    color:violet;
+}
+input[type="password"]{
+    color:red;
+}
+
+a[href="/home"] {
+    color: red;
+}

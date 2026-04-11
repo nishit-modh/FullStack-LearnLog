@@ -1,0 +1,50 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: solid 5px black;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* The top, right, bottom, left, and z-index properties have no effect.
+This is the default value. */
+#static { 
+    background-color: purple;
+    position: static;
+    top: 100000px;
+    left: 100px; /*this properties won't have any efect due to static position*/
+}
+
+/* the offset is relative to itself based on the values of top, right, bottom, and left. 
+position values applied later on will take affect from elemnt's own position */
+#relative {
+    background-color: purple;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* The element is removed from the normal document flow, and no space is created for the element in the page
+layout.
+It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial
+containing block (like whole page). */
+
+#absolute {
+    background-color: purple;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* The element is removed from the normal document flow, and no space is created for the element in the
+page layout.
+It is positioned relative to the initial containing block established by the viewport. */
+
+#fixed {
+    background-color: purple;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+

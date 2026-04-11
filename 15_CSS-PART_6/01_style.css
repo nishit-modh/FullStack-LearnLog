@@ -1,0 +1,109 @@
+/* Setting a container's display to grid will make all children grid items.
+container {
+    display : grid;
+}
+*/
+
+/* Grid Template
+They define the lines & track sizing
+    grid-template-rows
+    grid-template-columns
+
+    auto property deals with the extra space & devide it in all auto properties of templates.
+
+    if height & width of child elements not specifed -> element fills the gridbox.
+*/
+
+#container1 {
+    height: 500px;
+    width: 80%;
+    background-color: powderblue;
+    display: grid;
+    grid-template-rows: 80px 80px 80px auto auto;
+    grid-template-columns: 200px 200px auto;
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    grid-gap: 10px 20px;
+}
+
+/* Grid Gaps
+They define the gaps between the lines
+    row-gap
+    column-gap
+    grid-gap : rowGap columnGap
+
+    grid-gap: 10px; === rowgap=columngap=10px
+*/
+
+#container1 .item {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: solid 2px black; 
+    text-align: center;
+}
+
+/* Grid Template
+Repeat is used to divide all available space ->
+    grid-template-rows : repeat(count, 1fr)
+    grid-template-columns : repeat(count, 1fr)
+
+    grid-template-rows : repeat(2, 1fr)
+    grid-template-rows : 1fr 1fr 
+*/
+/* repeat can also be used by
+    grid-template-rows: repeat(3,1fr); === grid-template-rows: 1fr 1fr 1fr; 
+*/
+
+#container2 {
+    height: 500px;
+    width: 80%;
+    background-color: powderblue;
+    display: grid;
+    grid-gap: 8px 20px;
+    /* grid-template-rows: repeat(4,1fr); */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#container2 .item {
+    /* height: 50px;
+    width: 100px; */
+    background-color: yellowgreen;
+    border: solid 2px black; 
+    text-align: center;
+}
+
+/* Grid Columns
+Defines an item's starting & ending position inside the column
+grid-column-start : line_number
+grid-column-end : line_number
+
+grid-column : start_col / end_col
+grid-column : start—col / span number -> numbers of columns spanned by element
+*/
+#container2 .one {
+    /* grid-column-start: 1;
+    grid-column-end:3;   */
+    grid-row: 1/3;
+    /* grid-column:2/span 2;  */
+}
+
+/* Grid Rows
+Defines an item's starting & ending position inside the row
+    grid-row-start : line_number
+    grid-row-end : line_number
+    grid-row : start_row/ end_row
+    grid-row : start_row/ span number -> numbers of rows spanned by element
+*/
+#container2 .two {
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-column: 2/4;
+    /* grid-row: 2/span 3; */
+}
+
+#container2 .five {
+    grid-column: 1/ span 2; 
+    grid-row: 3/ span 2;
+}

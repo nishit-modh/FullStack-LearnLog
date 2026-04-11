@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    flex-direction: column-reverse;
+    /* flex direction is used to change the direction of flex property */
+    height: 300px;
+    width: 1000px;
+    background-color: powderblue;
+    border: solid 2px black;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+div {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* flex direction sets how flex items are placed in the flex container, along which axis and direction.
+    • flexbox-direction : row;
+    main axis. left to right
+    • flexbox-direction : row-reverse;
+    main axis, right to left
+    • flexbox-direction : column;
+    top to bottom
+    • flexbox-direction : column-reverse;
+    axis, bottom to top 
+*/

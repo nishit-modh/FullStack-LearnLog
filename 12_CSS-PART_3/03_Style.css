@@ -1,0 +1,27 @@
+/* display property can be used to change inline & block prpperty of elements */
+h2 {
+    display:inline;
+    background-color: wheat;
+}
+span {
+    display: block;
+    background-color: lightgrey;
+}
+
+/* we can use css properties like height, width, padding & margin efficently on block element only */
+
+/* to get div elements in single line we can not use disply as inline as it is not efficient so,
+we use --> inline-block */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* display none can be used to hide element */
+#d3 {
+    display: none;
+}

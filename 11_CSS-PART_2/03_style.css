@@ -1,0 +1,42 @@
+/* Ans 1 */
+h1 {
+    color: black;
+}  
+#greet {
+    color: blue; /*This will be selected --> id has highest priority*/
+}
+.myClass {
+    color: green;
+}
+/* Ans 2 */
+div p {
+    background-color: black; /* 0 0 2 */
+}  
+.para {
+    background-color: blue; /* 0 1 0 this will be selected highest total priority*/
+}
+p{
+    background-color: green;} /* 0 0 1 */
+/* Ans 3 */
+div .greetDiv .greet {
+    color: green;/* 0 2 1 highest priority but came first*/
+}
+.greetDiv p .greet {
+    color: blue;/* 0 2 1 highest priority and came last so this will be selected using cascading*/
+}
+.greetDiv .greet {
+    color: red;/* 0 2 0*/
+}
+
+
+/* in this format called Specificity
+                1st pos for id
+                2nd pos for class, attribute & pesudo class
+                3rd pos for element & pesudoelement
+        0 0 0 format */
+
+/* by method of Cascading if css for same element has same priority then the css ehich came last will be applied */
+
+/* by using inline method for css we can overwrite even highest priority of css */
+
+/* using "!important" it will have highest ever priority & can ot be changed anywhere eles*/

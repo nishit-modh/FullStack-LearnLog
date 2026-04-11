@@ -1,0 +1,10 @@
+h1{
+    text-align: right;
+}
+p{
+    text-align: center;
+}
+h5{
+    text-align: justify;
+}
+/* using justify it fills empty spaces */

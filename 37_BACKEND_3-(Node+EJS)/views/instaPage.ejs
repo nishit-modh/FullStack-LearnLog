@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- username is auto accuired from the a property of data object of res object -->
+    <h2>This is <%= data.name %> Page</h2>
+    <h4> followers: <%= data.followers %> &nbsp;&nbsp;&nbsp; following: <%= data.following %> </h4>
+    <button>Follow</button>
+    <button>Message</button>
+    <hr>
+    <% for (post of data.posts) { %>
+        <img src="<%= post.image %>" alt="Image"> <!-- using post.image images are extracted from db -->
+        <p>&#10084;likes: <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp; &#128172;comments: <%= post.comments %> </p>
+    <% } %>
+    <!-- to include footer file code from includes -->
+    <%- include("includes/footer") %>
+    <script src="app.js"></script>
+</body>
+</html>

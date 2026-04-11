@@ -1,0 +1,40 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+/* transitions is used to define transition between States of an element */
+#d1 {
+    display: inline-block;
+    background-color: black;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+}
+#d1:hover {
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* to hide the para before using transition */
+p {
+    display: none;
+}
+
+/* transition shorthand
+transition: property name | duration | timing function | delay */
+/* transition: 1s ease-in-out 0.5s; */
+
+#d2 {
+    margin: 0 auto;/* margin: 0 auto; this can be used to center an element */
+    background-color: rebeccapurple;
+    transition: 1s ease-in-out;
+}
+#d2:hover {
+    background-color: black;
+    margin-top: 600px;
+    border-radius: 50%;
+}
+
+#d2:hover p{
+    color: white;
+    display: inline;
+}

@@ -1,0 +1,37 @@
+.wp {
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px ;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px black;
+    transition: 0.3s;
+}
+.wp:hover {
+    box-shadow: 0px 8px 20px black;
+}
+
+img {
+    width: 100% ;
+    border-radius: 8px 8px 0px 0px; 
+    /* border radius shorthand : topleft | topright | bottomright | bottomleft */
+}
+
+.deta {
+    padding: 0 5px 0 35px;
+}  
+
+#self {
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 8px;
+    transition: 500ms ease-in-out 100ms;
+}
+
+#self:hover {
+    background-color: blue;
+}

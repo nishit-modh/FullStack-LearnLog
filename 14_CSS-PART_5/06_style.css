@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    background-color: powderblue;
+    border: solid 2px black;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+ 
+.flex div {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* it sets the distribution of space between and around content items along a flexbox's cross-axis
+
+    • align-content : flex-start | flex-end | center
+    • align-content : space-between | space-around | evenly
+    • align-content : baseline; 
+*/
+
+/* NOTE: ALLIGN CONTENT AFFECTS ALL THE ROWS AT ONCE WHERE ALLIGN ITEMS ALLIGNS ONLY IN EACH ROW 
+    -> ALLIGNS CONTENT : alligns all the content in the flex [GLOBAL-> whole flex box]
+    -> ALLIGN ITEM : alligns all the content of a axis in the axis [LOCAL] 
+*/

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="04_Style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Quora 
+            <button id="login">Log in</button>
+            <button id="signup">Sign up</button>
+        </h1>
+        <!-- nth-of-type will apply to header & main seperately -->
+        <div>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/following">Following</a></li>
+                <li><a href="/answer">Answer</a></li>
+                <li><a href="/spaces">Spaces</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div><p class="para">
+            Adam &nbsp;&nbsp;
+            <a class="follow" href="/adam">Follow /abc</a></span>
+            </p>
+            <h3>What is the highest salary for a spacex engineer?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+        </div>
+        <hr />
+        <div>
+            <p class="para">
+            Bob &nbsp;&nbsp;
+            <a class="follow" href="/bob">Follow xyz</a>
+            </p>
+            <h3>What is the syllabus for JEE 2024?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div>
+            <p class="para">
+            Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="follow" href="/catlyn">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div>
+            <p class="para">
+            Dan &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="follow" href="/dan">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+        </div>
+        <div id="myid1">
+            <p>This Is It.</p>
+            <Button>Hi!!</Button>
+        </div>
+        <span id="myid2">
+            <p>This Was Not.</p>
+            <button>bye?</button>
+        </span>
+        <hr>
+        <div>
+            <input type="radio" id="yes" name="yn" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="yn" />
+            <label for="no">No</label>
+        </div>
+        <hr>
+        <p id="lines">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, officia. Ex consectetur, cupiditate velit optio aliquid id delectus enim dignissimos dolore quae voluptas tenetur maxime voluptatibus ratione. Blanditiis, perferendis? Voluptate voluptatem iusto odit dignissimos consectetur molestiae mollitia unde eius eos?
+        </p>
+    </main>
+  </body>
+</html>
