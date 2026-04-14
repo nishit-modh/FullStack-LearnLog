@@ -1,0 +1,16 @@
+{
+  "name": "37.1_revision_pract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_hoistingLab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "root": "MernProject",
+  "folders": ["models", "controllers", "routes", "public"],
+  "files": ["app.js", ".env", "public/css"]
+}
